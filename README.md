@@ -10,7 +10,7 @@ https://github.com/rzaripov1990/FMX.FontAwesome
 * Deploy font to project
 ![release/debug](screens/deployment_android.png)
 
-![release/debug](screens/android.png)
+![preview](screens/android.png)
 
 ## MACOS
 * Deploy font to project to the `Contents\Resources\Fonts` folder
@@ -18,9 +18,9 @@ https://github.com/rzaripov1990/FMX.FontAwesome
 * Choose `Project | Options` and click `Version Info`. Then right click in the `Key/Value` area and choose `Add Key`. Set the key name to `ATSApplicationFontsPath`. Set the value to `Fonts`. Click `OK`.
 ![release/debug](screens/options_macos.png)
 
-![release/debug](screens/macos.png)
+![preview](screens/macos.png)
 
 ## WINDOWS
 * Install font to system
 
-![release/debug](screens/windows.png)
+![preview](screens/windows.png)
