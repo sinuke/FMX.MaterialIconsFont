@@ -1,0 +1,60 @@
+object fmMain: TfmMain
+  Left = 0
+  Top = 0
+  Caption = 'Material Icons Font'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claLightcoral
+    Size.Width = 640.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      StyledSettings = [Family, Style]
+      Size.Width = 56.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.FontColor = claWhite
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 2.000000000000000000
+      Position.X = 58.000000000000000000
+      Size.Width = 56.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.FontColor = claWhite
+    end
+    object SpeedButton3: TSpeedButton
+      Align = Right
+      StyledSettings = [Family, Style]
+      Position.X = 584.000000000000000000
+      Size.Width = 56.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.FontColor = claWhite
+    end
+  end
+  object Label1: TLabel
+    Align = Center
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Size.Height = 96.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.FontColor = claLightcoral
+    TabOrder = 1
+  end
+end
